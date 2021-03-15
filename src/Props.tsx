@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import TextField from './TextField' 
 // 1. what items do the component need? 
 // 2. function, var, whatever 
-// 3. create a props in that component  // export interface Props {}
+// 3. create a props in that component  // export interface ComponentProps {}
 // 4. create that function inside that props // fn: (a: number, b:number) => number;
-// 5. add props as type in that componnent // const UseRef: React.FC<Props> = ({fn}) => {
+// 5. add props as type in that componnent // const UseRef: React.FC<ComponentProps> = ({fn}) => {
   // 6. add function, var, whatever as props parameter like above
   // 7. now every componnent that need that componnet will need to instantiate it, see line 27
   // 8. <ComponentName fn={add} />
